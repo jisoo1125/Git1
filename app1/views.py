@@ -8,3 +8,6 @@ def tailong(request):
 
 def xiaoyu(request):
     return render(request,'xiaoyu.html')
+
+def wxun(request):
+    return render(request,'wxun.html')
