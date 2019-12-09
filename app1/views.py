@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def tailong(request):
     return render(request, 'tailong.html')
+
+def xiaoyu(request):
+    return render(request,'xiaoyu.html')
