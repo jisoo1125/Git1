@@ -11,3 +11,6 @@ def xiaoyu(request):
 
 def wxun(request):
     return render(request,'wxun.html')
+
+def zxy(request):
+    return render(request,'zhaoxinyu.html')
